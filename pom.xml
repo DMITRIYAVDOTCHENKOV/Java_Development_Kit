@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.example</groupId>
+    <artifactId>Java_Development_Kit</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <properties>
+        <maven.compiler.source>20</maven.compiler.source>
+        <maven.compiler.target>20</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+    <dependencies>
+        <dependency>
+            <groupId>day8.re-frame</groupId>
+            <artifactId>re-frame-10x</artifactId>
+            <version>1.5.0</version>
+        </dependency>
+        <dependency>
+            <groupId>reagent-button</groupId>
+            <artifactId>reagent-button</artifactId>
+            <version>0.1.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.sonatype.spice.zapper</groupId>
+            <artifactId>spice-zapper</artifactId>
+            <version>1.3</version>
+        </dependency>
+    </dependencies>
+    <repositories>
+        <repository>
+            <id>clojars</id>
+            <name>Clojars</name>
+            <url>https://repo.clojars.org/</url>
+        </repository>
+    </repositories>
+
+</project>
